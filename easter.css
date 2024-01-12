@@ -1,0 +1,20 @@
+.header {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    background: #000000;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;  
+    
+  }
+
+
+  .main {
+    padding-top: 200px;
+    color: black;
+    align-items: center;
+    text-align: center;
+  }

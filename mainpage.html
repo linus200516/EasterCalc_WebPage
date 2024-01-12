@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="easter.css">
+</head>
+<body>
+    <div class="header">
+    <h1>Easter calculator</h1>
+    <p>By Linus</p>
+    </div>
+
+    <form action="../cgi-bin/eastercalc.py" method="get">
+        <div class="main">
+            <h2>Please enter the year you want to find when Easter sunday is.</h2>
+            <input type="text" name="theYear" size="20" id="theYear" />          
+            <br/>
+            <br/>
+            <input type= "submit" name = "calculation" value= "Verbose"/>
+            <input type= "submit" name = "calculation" value= "Numerical date"/>
+            <input type= "submit" name = "calculation" value= "Both"/>
+          </div>
+    </form>
+    
+      
+</body>
+</html>
